@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96.97%;
+    background-color: hsl(220, 15%, 55%);
+    
+}
+
+.container .qr img{
+   
+    display: block;
+    border-radius: 10px;
+    height:auto ;
+    width: 190px;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 15px;
+    background-color:hsl(0, 0%, 100%);
+   min-width: 190px;
+    border-radius: 10px;
+}
+.content .text{
+    text-align: center;
+    font-size: 8px;
+    width: 200px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.text p{
+    padding: 10px 0 0 ;
+    font-size: 10px;
+    font-weight: 500;
+}
+.attribution{
+    text-align: center;
+}
